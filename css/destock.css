@@ -1,0 +1,101 @@
+@media screen and (min-width: 1200px){
+
+    .container {
+        width: 60%;
+       
+    }
+
+    
+    /*Cache le menu burger */
+.menu-burger {
+    display: none;
+}
+.menu-desktop {
+
+    display: flex;
+    align-items: center;
+    gap:40px;
+    list-style:none;
+
+}
+
+.menu-desktop a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+/**
+*HEADER
+*/
+header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+header p {
+    font-size: 1.3rem;
+   
+}
+header img {
+    width: 40%;
+}
+
+/**
+*main
+*/
+
+main .card-project {
+position: relative;
+
+}
+
+main .card-project h2 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 30%;
+    font-size: 1.2rem;
+}
+
+main .bouton {
+    display: none;
+}
+
+main .licorn {
+    display: flex;
+    flex-direction: row-reverse; /* inverse l'order de lecture de la ligne*/
+    padding: 50px;
+}
+main .licorn img,
+main .licorn div {
+
+    width: 50%;
+}
+
+main .licorn H3 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+main .bouton2 {
+
+    display: inline;
+    padding: 12px 28px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: right;
+    
+    
+}
+
+footer ul li {
+    border: none;
+}
+
+}
+
+
+
+
+    
